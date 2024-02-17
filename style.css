@@ -25,7 +25,7 @@ body{
 header{
     background-color: #038c3ed5;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px;
 }
 
@@ -83,16 +83,18 @@ main{
     line-height: 2em;
 }
 
-.controle-imagem{
+img{
     display: block;
     margin: auto;
 }
 
-.controle-imagem > .imagem{
+main > picture{
     max-width: 800px;
     min-width: 300px;
+    display: block;
     margin: auto;
 }
+
 
 .controle-video{
     background-color: var(--cor4);
