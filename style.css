@@ -86,14 +86,16 @@ main{
 img{
     display: block;
     margin: auto;
-}
-
-main > picture{
+    display: 100%;
     max-width: 800px;
     min-width: 300px;
-    display: block;
-    margin: auto;
 }
+
+picture{
+    display: 100%;
+    max-width: 800px;
+    min-width: 300px;
+}    
 
 
 .controle-video{
