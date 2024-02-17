@@ -83,15 +83,14 @@ main{
     line-height: 2em;
 }
 
-.controle-imagem > .imagem{
-    width: 500px;
-    display: block;
-    margin: auto;
-
-}
-
 .controle-imagem{
     display: block;
+    margin: auto;
+}
+
+.controle-imagem > .imagem{
+    max-width: 800px;
+    min-width: 300px;
     margin: auto;
 }
 
