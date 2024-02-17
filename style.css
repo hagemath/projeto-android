@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor0: #53DB7C;
+    --cor1: #60FF6B;
+    --cor2: #5F9E63;
+    --cor3: #038F2D;
+    --cor4: #26672A;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: var(--cor0);
+}
+
+header{
+    background-color: #038c3ed5;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+#primeiro_titulo{
+    margin-top: 5px;
+}
+
+#segundo_titulo{
+    margin-top: 5px;
+}
+
+.controle_link_cabecario{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.controle_link_cabecario > .link-cabecario{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.controle_link_cabecario > .link-cabecario:hover{
+    padding: 6px;
+    background-color: var(--cor4);
+    transition-duration: 0.2s;
+    border-radius: 5px;
+
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.titulo-inicial{
+    color: var(--cor4);
+    text-align: center;
+}
+
+.titulo-secundario{
+    color: var(--cor4);
+}
+
+.paragrafo{
+    margin: 8px;
+    text-align: justify;
+    font-size: 17px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+.controle-imagem > .imagem{
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+
+.controle-imagem{
+    display: block;
+    margin: auto;
+}
+
+.controle-video{
+    background-color: var(--cor4);
+    margin: 0px -10px 30px -10px;
+    padding: 35px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+.controle-video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.controle-extra{
+    background-color: #53db7c9a;
+    border-radius: 5px;
+    margin-top:-15px;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.controle-extra > .titulo-secundario-extra{
+    background-color:var(--cor3);
+    color:white;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -7px;
+    margin-left: -6px;
+    margin-right: -6px;
+} 
+
+.controle-extra > .controle-lista{
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    margin-bottom: -8px;
+    padding: 5px;
+
+}
+
+footer > .controle-footer-paragrafo{
+    text-align: center;
+}
+
+
